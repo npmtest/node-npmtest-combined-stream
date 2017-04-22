@@ -1,4 +1,7 @@
-# test coverage for  [combined-stream (v1.0.5)](https://github.com/felixge/node-combined-stream)  [![npm package](https://img.shields.io/npm/v/npmtest-combined-stream.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-combined-stream) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-combined-stream.svg)](https://travis-ci.org/npmtest/node-npmtest-combined-stream)
+# npmtest-combined-stream
+
+#### basic test-coverage for  [combined-stream (v1.0.5)](https://github.com/felixge/node-combined-stream)  [![npm package](https://img.shields.io/npm/v/npmtest-combined-stream.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-combined-stream) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-combined-stream.svg)](https://travis-ci.org/npmtest/node-npmtest-combined-stream)
+
 #### A stream that emits multiple other streams one after another.
 
 [![NPM](https://nodei.co/npm/combined-stream.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/combined-stream)
@@ -81,7 +84,8 @@
     "scripts": {
         "test": "node test/run.js"
     },
-    "version": "1.0.5"
+    "version": "1.0.5",
+    "bin": {}
 }
 ```
 
